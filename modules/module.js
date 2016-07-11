@@ -95,21 +95,5 @@ module.exports = function (data) {
 
 
 
-//Запуск тестов:
-//Вызываю функцию чистки символов
- document.write(style);
- var clear = new String();
- clear = clearCharCode(style);
-//Отображаю результат работы функции чистки
- document.write('<br>'+clear+'<br>');	
-  var deleteChar = deletePoints(clear);
-//Убираю из строки символы точки, запятой, табуляции, обрезаю по бокам пробелы
-  document.write('<br>'+deleteChar+'<br>');
-//Запускаю функцию обфускатор
- document.write(obfuscator(deleteChar));
-// obfuscator();
-document.write(deleteChar.length);
-	
-
 
 
